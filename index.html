@@ -1,73 +1,39 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>關懷服務員招募中｜你的陪伴是最溫暖的力量</title>
-  <meta name="description" content="慢性照護支援服務部誠摯招募關懷服務員，立即透過 LINE 私訊了解更多。" />
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      min-height: 100vh;
-      background: #FFF5E6;
-      color: #2D1B0E;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 32px 20px;
-    }
-    .container { width: 100%; max-width: 28rem; display: flex; flex-direction: column; align-items: center; }
-    .hero {
-      width: 100%;
-      height: auto;
-      border-radius: 24px;
-      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
-    }
-    .tagline {
-      margin-top: 28px;
-      text-align: center;
-      font-size: 1.25rem;
-      font-weight: 600;
-      line-height: 1.4;
-      letter-spacing: 0.02em;
-    }
-    .cta {
-      margin-top: 24px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      width: 100%;
-      padding: 16px 24px;
-      border-radius: 9999px;
-      background: #06C755;
-      color: #fff;
-      font-size: 1.125rem;
-      font-weight: 600;
-      text-decoration: none;
-      box-shadow: 0 10px 25px -5px rgba(6,199,85,0.35);
-      transition: filter .15s, transform .1s;
-    }
-    .cta:hover { filter: brightness(1.05); }
-    .cta:active { transform: scale(0.98); }
-    .hint { margin-top: 16px; text-align: center; font-size: 0.875rem; color: rgba(45,27,14,0.6); }
+    :root { --line-green: #06C755; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "PingFang TC", "Microsoft JhengHei", sans-serif; background: #FFF5E6; color: #2D1B0E; }
+    main { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 32px 20px; }
+    .card { width: 100%; max-width: 440px; text-align: center; }
+    .hero { width: 100%; height: auto; border-radius: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
+    .tagline { margin-top: 28px; font-size: 20px; font-weight: 600; line-height: 1.45; letter-spacing: 0.05em; }
+    .btn { margin-top: 24px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; border-radius: 999px; padding: 16px 24px; font-size: 18px; font-weight: 600; color: white; text-decoration: none; background: var(--line-green); box-shadow: 0 10px 24px rgba(6,199,85,0.3); transition: transform 0.1s, filter 0.1s; }
+    .btn:hover { filter: brightness(1.05); }
+    .btn:active { transform: scale(0.98); }
+    .hint { margin-top: 16px; font-size: 14px; opacity: 0.6; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img class="hero"
-         src="https://id-preview--c3a3a349-a6aa-4972-a110-ab4299aa3abe.lovable.app/__l5e/assets-v1/b351af37-4658-4ec1-bb4e-b095077fc026/hah-home-care.png"
-         alt="在宅急症照護 HAH｜在家也能安心住院"
-         width="1254" height="1254" />
-    <p class="tagline">願意傾聽、願意陪伴，<br />一起把溫暖送出去。</p>
-    <a class="cta" href="https://line.me/ti/p/rj9FtpZEV6">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        <path d="M12 2C6.48 2 2 5.73 2 10.32c0 4.11 3.55 7.55 8.36 8.21.32.07.77.22.88.5.1.25.07.65.03.91l-.14.86c-.04.25-.2 1 .87.55 1.07-.46 5.77-3.4 7.87-5.82C21.32 13.86 22 12.18 22 10.32 22 5.73 17.52 2 12 2z"/>
-      </svg>
-      私訊 LINE 了解更多
-    </a>
-    <p class="hint">📩 點擊上方按鈕，加入我們的大家庭 🏘</p>
-  </div>
+  <main>
+    <div class="card">
+      <img class="hero"
+           src="https://id-preview--c3a3a349-a6aa-4972-a110-ab4299aa3abe.lovable.app/__l5e/assets-v1/b7106ebf-ff58-45bd-8ff0-1139a77c4cdf/hah-home-care-v2.png"
+           alt="在宅急症照護 HAH｜照服人員必懂的醫療新選擇"
+           width="1254" height="1254" />
+      <p class="tagline">願意傾聽、願意陪伴，<br />一起把溫暖送出去。</p>
+      <a class="btn" href="https://line.me/ti/p/rj9FtpZEV6" target="_blank" rel="noopener">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2C6.48 2 2 5.73 2 10.32c0 4.11 3.55 7.55 8.36 8.21.32.07.77.22.88.5.1.25.07.65.03.91l-.14.86c-.04.25-.2 1 .87.55 1.07-.46 5.77-3.4 7.87-5.82C21.32 13.86 22 12.18 22 10.32 22 5.73 17.52 2 12 2zM7.2 13.06h-2c-.15 0-.27-.12-.27-.27V8.83c0-.15.12-.27.27-.27h.46c.15 0 .27.12.27.27v3.16h1.27c.15 0 .27.12.27.27v.53c0 .15-.12.27-.27.27zm1.66-.27c0 .15-.12.27-.27.27h-.46c-.15 0-.27-.12-.27-.27V8.83c0-.15.12-.27.27-.27h.46c.15 0 .27.12.27.27v3.96zm4.74 0c0 .15-.12.27-.27.27h-.46a.27.27 0 01-.21-.1L11 10.42v2.37c0 .15-.12.27-.27.27h-.46c-.15 0-.27-.12-.27-.27V8.83c0-.15.12-.27.27-.27h.46c.07 0 .15.03.21.1l1.66 2.54V8.83c0-.15.12-.27.27-.27h.46c.15 0 .27.12.27.27v3.96zm3.7-3.46c0 .15-.12.27-.27.27h-1.27v.73h1.27c.15 0 .27.12.27.27v.53c0 .15-.12.27-.27.27h-1.27v.73h1.27c.15 0 .27.12.27.27v.53c0 .15-.12.27-.27.27h-2c-.15 0-.27-.12-.27-.27V8.83c0-.15.12-.27.27-.27h2c.15 0 .27.12.27.27v.53z"/>
+        </svg>
+        私訊 LINE 了解更多
+      </a>
+      <p class="hint">📩 點擊上方按鈕，加入我們的大家庭 🏘</p>
+    </div>
+  </main>
 </body>
 </html>
